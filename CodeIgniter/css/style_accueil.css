@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "arial";
+  src: url("arlrdbd.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background: #061e2f;
+  font-family: arial;
+  height: 100%;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.topnav a {
+  float: left;
+  color: #9873f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.topnav a.active:hover {
+  color: #9873f1;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+hr {
+  border-radius: 100px;
+}
+
+.tete {
+  height: 1vw;
+  padding-left: 5%;
+}
+
+h2 {
+  color: #9873f1;
+  font-size: 2.5vw;
+  position: relative;
+  top: 8vw;
+}
+
+h1 {
+  color: white;
+  font-size: 10vw;
+}
+
+.ligne1 {
+  background-color: #9873f1;
+  height: 0.5vw;
+  width: 25vw;
+  border-radius: 100px;
+  position: relative;
+  top: -7vw;
+  left: 5vw;
+}
+
+.ligne2 {
+  background-color: #9873f1;
+  height: 0.5vw;
+  width: 18vw;
+  border-radius: 100px;
+  position: relative;
+  top: -6vw;
+  left: 20vw;
+}
+
+img {
+  width: 30%;
+  position: absolute;
+  left: 63vw;
+  top: 5vw;
+}
+
+.description {
+  color: white;
+  font-size: 2vw;
+  padding-right: 40%;
+  position: relative;
+  top: 18vw;
+}
+
+.titre {
+  height: 10vw;
+}
+
+#bouton {
+  background-color: #9873f1;
+  color: white;
+  text-decoration: none;
+  border-radius: 100px;
+  font-size: 2vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  position: relative;
+  top: 25vw;
+  border: 5px solid #9873f1;
+}
+
+#bouton:hover {
+  background-color: #061e2f;
+  transition: 0.3s;
+}
+
+.connexion {
+  position: relative;
+  left: 15%;
+}
+
+.inscription {
+  position: relative;
+  left: 45%;
+}
+
+.footer {
+  background-color: #9873f1;
+  width: 100%;
+  height: 12vw;
+  position: relative;
+  top: 55vw;
+}
+
+p {
+  text-align: center;
+  font-size: 1.75vw;
+  padding-top: 2vw;
+}
+
+.copyright {
+  color: white;
+}
