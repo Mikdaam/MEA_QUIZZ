@@ -1,1 +1,0 @@
-<p>Bienvenu sur mon Essai avec Codegniter</p>
